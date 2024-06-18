@@ -19,4 +19,16 @@ gain insights into the data.
 **Analysis**: To analyse them with the visual graphs and chart type models 
 
 *** Technologies Used
-**python**:  
+**python**: For data analysis due to its simplicity, readability, and the rich ecosystem of libraries and tools.
+**Pandas**: Functions for reading/writing data from various formats (CSV, Excel, SQL databases). And Essential for data manipulation and analysis.
+**Numpy**: Provides support for arrays, matrices, and a large collection of mathematical functions.
+**Matplotlib**: Helps create static, interactive, and animated plots.
+**Seaborn**:  higher-level interface for drawing attractive and informative statistical graphics.
+
+Output of the EDA analysis
+
+1.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/bb1731b0-f9ce-45ea-963c-ac8ed9e8ddd6)
+
+
+
+
