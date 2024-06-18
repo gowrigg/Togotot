@@ -1,0 +1,70 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import scipy
+
+'''Initially we start EDA with the data of Apple-stock-prices on the year 2015-2020'''
+'''start to read data using pandas'''
+
+#IMPORTING AND READING THE DATASET
+df= pd.read_csv("/kaggle/input/apple-stock-prices-20152020/AAPL.csv")
+
+df.head(10)
+
+df.shape #DIMENSION OF THE DATASET
+
+df.info() #showing the information about dataset
+
+#DATA CLEANING
+df1=df.drop(df.loc[:,'adjHigh':'splitFactor'].columns, axis=1)
+df1
+
+df2=df1.drop(df.loc[:,'Unnamed: 0':'symbol'].columns, axis=1)
+df2
+
+df2.describe()
+
+#DATA CLEANING
+
+df2.isnull().sum()
+
+# CHANGING THE DATATYPE OF DATE COLUMN FROM OBJECT TO DATE-TIME
+df2['date']=pd.to_datetime(df2['date'])
+df2.info()
+
+#DATA VISUALIZATION THE DISTRIBUTION OVER THE COUNTRIES AND YEARS
+
+for i in df2.columns:
+    if i !='date':
+        sns.relplot(data=df2, x="date", y=i, kind="line")
+
+#CORRELATION MATRIX
+
+correlation_matrix=df2.corr(method='pearson')
+sns.heatmap(correlation_matrix,annot=True)
+plt.title("correlation matrix for numeric features")
+plt.xlabel("Price Features")
+plt.ylabel("Price Features")
+
+df2['open-high'] = df2['open']-df2['high']
+df2['open-low'] = df2['open'] - df2['low']
+df2['close-high'] = df2['close']-df2['high']
+df2['close-low'] = df2['close'] - df2['low']
+df2['high-low'] = df2['high'] - df2['low']
+df2['open-close'] = df2['open'] - df2['close']
+ #we also creat a year column
+df2['year'] = df2['date'].apply(lambda x: x.strftime('%Y')) 
+df2.head()
+
+df3 = df2.copy()
+df3 = df3.drop(['open','high','low','close', 'adjClose'],axis=1)
+plt.figure(figsize=(7,5))
+sns.heatmap(df3.corr(),cmap='Blues',annot=True)
+
+fig, ax = plt.subplots(figsize=(20, 5))
+sns.barplot(data=df3, x="year", y="volume",ax=ax)
+plt.xlabel('YEAR')
+plt.ylabel('VOLUMN')
+plt.title('YEARWISE VOLUME OF STOCKS')
+
