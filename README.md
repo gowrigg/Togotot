@@ -28,6 +28,24 @@ gain insights into the data.
 Output of the EDA analysis
 
 1.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/bb1731b0-f9ce-45ea-963c-ac8ed9e8ddd6)
+2.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/d09de6bd-0c62-4fb1-a426-82f68ef4254a)
+3.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/62eccc9c-a2d0-4d99-ab67-9cc8cd039cbf)
+4.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/1eb10e0e-5d24-4658-a0f6-fc0ea5903237)
+5.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/14b5a905-2f16-453c-9a64-441cce5fe8ab)
+6.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/ec402622-6d4b-4025-8755-e789e90df4b7)
+7.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/c44a744b-75c2-451f-80f2-26a5da2353c6)
+8.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/5e386038-8b44-49dc-91f0-4a7cc76e5e60)
+9.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/f3a4ee7d-fe4d-49db-a249-0cc7e03945d9)
+10.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/70673037-e731-40ac-a11b-8313cc447195)
+
+
+
+
+
+
+
+
+
 
 
 
