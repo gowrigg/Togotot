@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import scipy
+
 
 '''Initially we start EDA with the data of Apple-stock-prices on the year 2015-2020'''
 '''start to read data using pandas'''
