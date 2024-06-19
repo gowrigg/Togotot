@@ -5,7 +5,7 @@
 **DURATION:** MAY TO JUNE 2024
 **MENTOR:** SRIVANI GOUNI
 
-** Overview of the project
+**Overview of the project**
 
 *** Project: Explorator Data Analysis (EDA) on Apple stock price dataset
 
@@ -46,6 +46,36 @@ Output of the EDA analysis
 9.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/f3a4ee7d-fe4d-49db-a249-0cc7e03945d9)
 
 10.![image](https://github.com/gowrigg/codtech-task--1/assets/74725600/70673037-e731-40ac-a11b-8313cc447195)
+
+**Focusing Point of this project**
+
+1.Understanding the Data Structure:
+
+Description: EDA helps you get a basic understanding of the data, including its size, structure, and nature (e.g., numerical, categorical, time series). This foundational understanding is crucial for any further analysis or modeling.
+
+2. Identifying Data Quality Issues:
+
+Description: EDA helps in identifying and handling missing values, outliers, and inconsistencies. Ensuring data quality is critical because poor data quality can lead to incorrect conclusions.
+
+3.Discovering Patterns and Relationships:
+
+Description: Through EDA, you can uncover patterns, trends, and relationships within the data. Visualizations such as scatter plots, histograms, and heatmaps can reveal correlations and other insights that might not be immediately apparent from the raw data.
+
+4.Hypothesis Generation:
+
+Description: EDA allows you to generate hypotheses about the data that can be tested with further analysis. This is an essential step in scientific research and data-driven decision-making.
+
+5.Guiding Feature Selection and Engineering:
+
+Description: By understanding the data better, EDA helps in selecting the most relevant features for your models and in creating new features that can improve model performance.
+
+6.Choosing Appropriate Modeling Techniques:
+
+Description: The insights gained from EDA can guide the selection of the most suitable modeling techniques. For instance, understanding the distribution of your target variable can inform whether a regression model or a classification model is more appropriate.
+
+7.Assessing the Assumptions of Statistical Models:
+
+Description: Many statistical models have underlying assumptions (e.g., normality, linearity, homoscedasticity). EDA helps in checking these assumptions and preparing the data to meet them.
 
 
 
